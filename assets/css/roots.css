@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&family=Cherry+Cream+Soda&family=Chewy&display=swap');
+
+:root {
+  /* font-size */
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 14px;
+  --fs-20: 20px;
+  --fs-22: 22px;
+  --fs-28: 28px;
+  --fs-31: 25px;
+  --fs-43: 43px;
+  --fs-60: 39px;
+  --fs-69: 69px;
+  --fs-80: 40px;
+
+  /* color */
+  --bg_clr: #9cdbfd;
+  --txt_clr:#0D0D0D;
+}
+
+.fs-14 {
+  font-size: var(--fs-14) !important;
+}
+.fs-16 {
+  font-size: var(--fs-16) !important;
+}
+.fs-18 {
+  font-size: var(--fs-18) !important;
+}
+.fs-20 {
+  font-size: var(--fs-20) !important;
+}
+.fs-22 {
+  font-size: var(--fs-22) !important;
+}
+.fs-28 {
+  font-size: var(--fs-28) !important;
+}
+.fs-31 {
+  font-size: var(--fs-31) !important;
+}
+.fs-43 {
+  font-size: var(--fs-43) !important;
+}
+.fs-60 {
+  font-size: var(--fs-60) !important;
+}
+.fs-69 {
+  font-size: var(--fs-69) !important;
+}
+.fs-80 {
+  font-size: var(--fs-80) !important;
+}
+
+.ff-balasiq {
+  font-family: "Balsamiq Sans", cursive !important;
+}
+
+.ff-bomb {
+  font-family: "Cherry Bomb One", cursive !important;
+}
+
+.ff-Chewy {
+  font-family: "Chewy", cursive !important;
+}
+.ff-Cream{
+  font-family: 'Cherry Cream Soda', cursive !important;
+}
+
+
+.bg_clr {
+  background-color: var(--bg_clr) !important;
+}
+.txt_clr{
+  color: var(--txt_clr) !important;
+}
+
+@media (min-width:992px) {
+  :root {
+    /* font-size */
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-28: 28px;
+    --fs-31: 31px;
+    --fs-43: 43px;
+    --fs-60: 60px;
+    --fs-69: 69px;
+    --fs-80: 80px;
+  }
+}
+@media (min-width:768px) {
+  :root {
+    /* font-size */
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-28: 28px;
+    --fs-31: 31px;
+    --fs-43: 43px;
+    --fs-60: 60px;
+    --fs-69: 69px;
+    --fs-80: 60px;
+  }
+}
