@@ -361,6 +361,9 @@ p {
 .mt_192 {
   margin-top: 192px !important;
 }
+.mt_92 {
+  margin-top: 92px !important;
+}
 
 /* section_4 */
 
@@ -386,7 +389,7 @@ p {
   opacity: 0.3;
 }
 .pt_90 {
-  padding-top: 190px;
+  padding-top: 50px;
 }
 .box {
   width: 6;
@@ -554,7 +557,7 @@ p {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .md_screen {
     position: fixed;
     top: 0;
@@ -663,6 +666,9 @@ p {
   .pt_80 {
     padding-top: 80px;
   }
+  .pt_90 {
+    padding-top: 190px;
+  }
   .pt_200 {
     padding-top: 120px;
   }
@@ -752,6 +758,21 @@ p {
 @media (min-width: 992px) {
   .w_50 {
     width: 50%;
+  }
+  .position_ab{
+    position: absolute !important;
+  }
+  .min_100{
+    min-height: 100vh !important;
+  }
+  .teddy {
+    position: absolute;
+    content: "";
+    top: 15%;
+    bottom: 0%;
+    left: 7%;
+    right: 0%;
+    z-index: 0;
   }
   .section1tree {
     position: absolute;
