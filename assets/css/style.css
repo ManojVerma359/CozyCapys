@@ -461,9 +461,8 @@ p {
 .frightimg {
   position: absolute;
   content: "";
-  top: 77%;
-  left: 75%;
-  width: 25%;
+  bottom: 0%;
+ right: 0%;  
 }
 .herosectionimg {
   position: absolute;
@@ -476,11 +475,10 @@ p {
 }
 .fleftimg {
   position: absolute;
-  content: "";
-  top: 69%;
+  content: "";  
   bottom: 0%;
   left: 0%;
-  right: 0%;
+
 }
 .faqtree {
   position: absolute;
@@ -768,14 +766,14 @@ p {
   .mt_192 {
     margin-top: 0px !important;
   }
-  .fleftimg {
+  /* .fleftimg {
   position: absolute;
   content: "";
   top: 72%;
   bottom: 0%;
   left: 0%;
   right: 0%;
-}
+} */
 
   .himge1 {
     position: absolute;
@@ -939,7 +937,7 @@ p {
     left: -1%;
     right: 0%;
   }
-  .frightimg {
+  /* .frightimg {
     position: absolute;
     content: "";
     top: 71%;
@@ -947,7 +945,7 @@ p {
     left: 74%;
     right: 0%;
     width: 25%;
-  }
+  } */
   .min_vh100 {
     min-height: 100vh !important;
   }
