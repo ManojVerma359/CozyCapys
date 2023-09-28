@@ -461,7 +461,7 @@ p {
 .frightimg {
   position: absolute;
   content: "";
-  top: 79%;
+  top: 77%;
   left: 75%;
   width: 25%;
 }
@@ -477,7 +477,7 @@ p {
 .fleftimg {
   position: absolute;
   content: "";
-  top: 72%;
+  top: 69%;
   bottom: 0%;
   left: 0%;
   right: 0%;
@@ -767,6 +767,14 @@ p {
   }
   .mt_192 {
     margin-top: 0px !important;
+  }
+  .fleftimg {
+    position: absolute;
+    content: "";
+    top: 72%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
   }
 
   .himge1 {
