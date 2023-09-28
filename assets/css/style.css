@@ -61,11 +61,11 @@ h6 {
   background: #4cbaff;
   border: none;
 }
-.flink{
+.flink {
   transition: scale 400ms;
   height: 100%;
 }
-.flink:hover{
+.flink:hover {
   scale: 120%;
 }
 .pt_58 {
@@ -98,7 +98,7 @@ ul {
   left: 50%;
   bottom: -1px;
 
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   transition: 0.3s;
 }
 .footerunderline:hover::before {
@@ -109,7 +109,7 @@ ul {
 .weather {
   position: absolute;
   content: "";
-  top: -17%;
+  top: -7%;
   bottom: 0%;
   left: 92%;
   right: 0%;
@@ -156,8 +156,11 @@ ul {
   content: "";
   top: 83%;
   bottom: 0%;
-  left: 0%;
+  left: -5%;
   right: 0%;
+}
+.min_vh50 {
+  min-height: 65vh !important;
 }
 
 .rainbow {
@@ -238,7 +241,7 @@ ul {
 /* section_1 */
 .section1img {
   background-image: url(../image/section1img.png);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .about {
@@ -303,7 +306,7 @@ p {
   line-height: 103.164%; /* 61.898px */
 }
 .pt_200 {
-  padding-top: 200px;
+  padding-top: 60px;
 }
 .mt_115 {
   margin-top: 115px;
@@ -320,7 +323,7 @@ p {
 .rainbow1 {
   position: absolute;
   content: "";
-  top: 0%;
+  top: 11%;
   bottom: 0%;
   left: 73%;
   right: 0%;
@@ -330,7 +333,7 @@ p {
 .section3tree {
   position: absolute;
   content: "";
-  top: 80%;
+  top: 70%;
   bottom: 0%;
   left: 82%;
   right: 0%;
@@ -350,6 +353,9 @@ p {
   bottom: 0%;
   left: 0%;
   right: 0%;
+}
+.mt_192 {
+  margin-top: 192px !important;
 }
 
 /* section_4 */
@@ -376,7 +382,7 @@ p {
   opacity: 0.3;
 }
 .pt_90 {
-  padding-top: 90px;
+  padding-top: 190px;
 }
 .box {
   width: 6;
@@ -503,16 +509,16 @@ p {
     z-index: 25;
     width: 35%;
   }
-  
-.teddy1 {
-  position: absolute;
-  content: "";
-  top: 84%;
-  bottom: 0%;
-  right: 0%;
-  z-index: 15;
-  width: 25%;
-}
+
+  .teddy1 {
+    position: absolute;
+    content: "";
+    top: 84%;
+    bottom: 0%;
+    right: 0%;
+    z-index: 15;
+    width: 25%;
+  }
 }
 @media (min-width: 576px) {
   .tree2 {
@@ -538,13 +544,13 @@ p {
   .section1tree {
     position: absolute;
     content: "";
-    top: -39%;
+    top: -9%;
     bottom: 0%;
     left: 0%;
     right: 0%;
     width: 25%;
     z-index: 15;
-}
+  }
 }
 
 @media (max-width: 992px) {
@@ -554,8 +560,9 @@ p {
     right: -100%;
     width: 100%;
     min-height: 100vh;
-    background-color: black !important;
+    background-color: #fcbe69 !important;
     transition: 600ms linear;
+    opacity: 0.9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -643,6 +650,9 @@ p {
   .w_75 {
     width: 75%;
   }
+  .pt_200 {
+    padding-top: 120px;
+  }
   .himge1 {
     position: absolute;
     content: "";
@@ -715,10 +725,33 @@ p {
     right: 0%;
     width: 20%;
   }
+  .section1tree {
+    position: absolute;
+    content: "";
+    top: -12%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: 19%;
+    z-index: 15;
+  }
 }
 @media (min-width: 992px) {
   .w_50 {
     width: 50%;
+  }
+  .section1tree {
+    position: absolute;
+    content: "";
+    top: -23%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: 19%;
+    z-index: 15;
+  }
+  .mt_192 {
+    margin-top: 0px !important;
   }
 
   .himge1 {
@@ -782,6 +815,19 @@ p {
     right: 0%;
     width: 25%;
   }
+  .pt_200 {
+    padding-top: 200px;
+  }
+  .teddy1 {
+    position: absolute;
+    content: "";
+    top: 81%;
+    bottom: 0%;
+    left: 84%;
+    right: 0%;
+    z-index: 15;
+    width: 18%;
+  }
 }
 @media (min-width: 1200px) {
   .teddy {
@@ -793,10 +839,28 @@ p {
     right: 0%;
     z-index: 0;
   }
+  .phad {
+    position: absolute;
+    content: "";
+    top: 88%;
+    bottom: 0%;
+    left: -5%;
+    right: 0%;
+  }
+  .teddy1 {
+    position: absolute;
+    content: "";
+    top: 76%;
+    bottom: 0%;
+    left: 75%;
+    right: 0%;
+    z-index: 15;
+    width: 25%;
+  }
   .himge1 {
     position: absolute;
     content: "";
-    top: 56%;
+    top: 66%;
     bottom: 0%;
     left: 35%;
     right: 0%;
@@ -805,7 +869,7 @@ p {
   .himge {
     position: absolute;
     content: "";
-    top: 45%;
+    top: 58%;
     bottom: 0%;
     left: 20%;
     right: 0%;
@@ -813,7 +877,7 @@ p {
   .himg2 {
     position: absolute;
     content: "";
-    top: 58%;
+    top: 66%;
     bottom: 0%;
     left: 55%;
     right: 0%;
@@ -821,7 +885,7 @@ p {
   .himg3 {
     position: absolute;
     content: "";
-    top: 57%;
+    top: 64%;
     bottom: 0%;
     left: 68%;
     right: 0%;
@@ -829,9 +893,9 @@ p {
   .tree1 {
     position: absolute;
     content: "";
-    left: 65%;
+    left: 70%;
     right: 0%;
-    top: 24%;
+    top: 39%;
     bottom: 0%;
     z-index: 25;
   }
@@ -840,7 +904,7 @@ p {
     content: "";
     left: -3%;
     right: 0%;
-    top: 18%;
+    top: 34%;
     bottom: 0%;
     z-index: 25;
   }
@@ -860,7 +924,19 @@ p {
     left: 74%;
     right: 0%;
     width: 25%;
-}
+  }
+  .min_vh100 {
+    min-height: 100vh !important;
+  }
+  .section3tree {
+    position: absolute;
+    content: "";
+    top: 80%;
+    bottom: 0%;
+    left: 82%;
+    right: 0%;
+    z-index: 15;
+  }
 }
 
 @media (min-width: 1441px) {
