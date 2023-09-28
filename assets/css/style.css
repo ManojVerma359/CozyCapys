@@ -769,13 +769,13 @@ p {
     margin-top: 0px !important;
   }
   .fleftimg {
-    position: absolute;
-    content: "";
-    top: 72%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-  }
+  position: absolute;
+  content: "";
+  top: 72%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
 
   .himge1 {
     position: absolute;
