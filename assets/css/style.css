@@ -312,6 +312,9 @@ p {
 .mt_115 {
   margin-top: 115px;
 }
+.pt_80 {
+  padding-top: 40px;
+}
 .gifimge {
   width: 446px;
   height: 497.504px;
@@ -474,7 +477,7 @@ p {
 .fleftimg {
   position: absolute;
   content: "";
-  top: 74%;
+  top: 72%;
   bottom: 0%;
   left: 0%;
   right: 0%;
@@ -658,6 +661,9 @@ p {
   }
   .w_75 {
     width: 75%;
+  }
+  .pt_80 {
+    padding-top: 80px;
   }
   .pt_200 {
     padding-top: 120px;
@@ -928,7 +934,7 @@ p {
   .frightimg {
     position: absolute;
     content: "";
-    top: 73%;
+    top: 71%;
     bottom: 0%;
     left: 74%;
     right: 0%;
