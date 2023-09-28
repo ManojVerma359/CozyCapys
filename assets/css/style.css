@@ -52,9 +52,10 @@ h6 {
 .mx_w758 {
   max-width: 758px !important;
 }
+
 .joinbtn {
   display: flex;
-  padding: 16px 40px;
+  padding: 6px 18px;
   justify-content: center;
   align-items: center;
   border-radius: 44px;
@@ -457,10 +458,8 @@ p {
 .frightimg {
   position: absolute;
   content: "";
-  top: 69%;
-  bottom: 0%;
-  left: 76%;
-  right: 0%;
+  top: 79%;
+  left: 75%;
   width: 25%;
 }
 .herosectionimg {
@@ -470,11 +469,12 @@ p {
   bottom: 0%;
   left: 0%;
   right: 0%;
+  width: 100%;
 }
 .fleftimg {
   position: absolute;
   content: "";
-  top: 69%;
+  top: 74%;
   bottom: 0%;
   left: 0%;
   right: 0%;
@@ -647,6 +647,15 @@ p {
 }
 
 @media (min-width: 768px) {
+  .joinbtn {
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 44px;
+    background: #4cbaff;
+    border: none;
+  }
   .w_75 {
     width: 75%;
   }
@@ -911,7 +920,7 @@ p {
   .rainbow {
     position: absolute;
     content: "";
-    top: -2%;
+    top: 13%;
     bottom: 0%;
     left: -1%;
     right: 0%;
@@ -919,7 +928,7 @@ p {
   .frightimg {
     position: absolute;
     content: "";
-    top: 69%;
+    top: 73%;
     bottom: 0%;
     left: 74%;
     right: 0%;
